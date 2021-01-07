@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import * as ROUTES from '../constants/routes';
 
 const NavBar = () => (
-    <nav className="navbar navbar-expand-md navbar-light bg-light mb-5">
+    <nav className="navbar navbar-expand-md navbar-light bg-light mb-5 sticky-top">
         <Link to={ROUTES.HOME} className="navbar-brand">Adam Foot</Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
