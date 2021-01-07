@@ -1,0 +1,16 @@
+.font-big {
+    font-size: 1.2rem!important;
+}
+.font-small {
+    font-size: 0.8rem;
+}
+
+.fade-in-welcome {
+    animation: fade 1.0s ease-in;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+}
