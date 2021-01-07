@@ -1,14 +1,14 @@
 import React from 'react';
 
 const CV = () => (
-    <div className="container">
-        <div className="row mb-5">
+    <div className="container font-big">
+        <div className="row">
             <div className="col-12">
                 <h1 className="display-4">CV.</h1>
             </div>
         </div>
 
-        <div className="row">
+        <div className="row mb-5">
             <div className="col-12 col-md-8 col-lg-7">
                 <p className="text-muted">Below you will be able to find all my relevant educational and industry
                     experiences.</p>
@@ -105,7 +105,7 @@ const CV = () => (
 
         <div className="row">
             <div className="col-12 text-center">
-                <p className="text-muted">&#169; Copyright 2021 - Adam Foot</p>
+                <p className="text-muted font-small">&#169; Copyright 2021 - Adam Foot</p>
             </div>
         </div>
     </div>
