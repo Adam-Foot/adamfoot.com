@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 
 import portrait from '../assets/portrait.png';
+import {Link} from "react-router-dom";
+import * as ROUTES from "../constants/routes";
 
 class Home extends Component {
     constructor(props) {
@@ -11,92 +13,127 @@ class Home extends Component {
         }
     }
 
-    // componentDidMount() {
-    //     if (window.sessionStorage.getItem("homeFirstLoad") === null) {
-    //         this.setState({
-    //             animation: true
-    //         })
-    //         window.sessionStorage.setItem("homeFirstLoad", 1)
-    //     } else {
-    //         this.setState({
-    //             animation: false
-    //         })
-    //     }
-    // }
+    componentDidMount() {
+        if (window.sessionStorage.getItem("homeFirstLoad") === null) {
+            this.setState({
+                animation: true
+            })
+            window.sessionStorage.setItem("homeFirstLoad", 1)
+        } else {
+            this.setState({
+                animation: false
+            })
+        }
+    }
 
     render() {
         return (
-            <div className={this.state.animation ? "fade-in-welcome container font-big" : "container font-big"}>
-                <div className="row mb-5">
-                    <div className="col-12">
-                        <h1 className="display-4">Welcome.</h1>
-                    </div>
-                </div>
+            <div>
 
-                <div className="row">
-                    <div className="col-12 col-md-8 col-lg-7">
-                        <p>My name is Adam Foot, and I am a recent Computing BSc graduate. I attended the University of
-                            Plymouth (UOP) between the years of 2016-2020. During my time at UOP I decided to take
-                            part in a year in industry where I was lucky enough to land a position with British Telecom based in
-                            Cardiff, Wales. After I graduated, I was offered a place at BT on their 2-year graduate scheme of
-                            which I accepted. I am currently working on adding security to BT & EE's Mobile Network
-                            platforms.</p>
-                    </div>
-                    <div className="col-12 col-md-4 col-lg-5 text-center mb-3">
-                        <img src={portrait} className="img-fluid img-bounce"/>
-                    </div>
-                </div>
+                <nav className="navbar navbar-expand-md navbar-light bg-light mb-5 sticky-top">
+                    <Link to={ROUTES.HOME} className="navbar-brand">Adam Foot</Link>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
 
-                <div className="row">
-                    <div className="col-12 col-md-8 col-lg-7">
-                        <p>Whilst studying I learned a wide range of programming languages and technologies that include but are
-                            not limited to the following:</p>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>Java</li>
-                            <li>C#</li>
-                            <li>C++</li>
-                            <li>NoSQL Databases (MongoDB)</li>
-                            <li>SQL</li>
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav ml-auto">
+                            <li className="nav-item">
+                                <Link to={ROUTES.CV} className="nav-link font-weight-bold">CV</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to={ROUTES.SOCIAL} className="nav-link font-weight-bold">Social Media</Link>
+                            </li>
                         </ul>
                     </div>
-                </div>
+                </nav>
 
-                <div className="row">
-                    <div className="col-12 col-md-8 col-lg-7">
-                        <p>I really enjoy web development and utilising frameworks such as React and Angular. One day I wish to
-                            pursue a career in it and become a full stack web developer. Alongside this, I enjoy learning new
-                            languages. I am currently looking to widen my knowledge on Python and C# for games development
-                            within Unity.</p>
+                <div className={this.state.animation ? "container font-big" : "container font-big"}>
+                    <div className="row mb-5">
+                        <div className="col-12">
+                            <h1 className="display-4">Welcome.</h1>
+                        </div>
                     </div>
-                </div>
 
-                <div className="row">
-                    <div className="col-12 col-md-8 col-lg-7">
-                        <p>Aside from the software side of tech, I really enjoy building computers. I have had some experience
-                            with building my own PC and helped build friends and family members as well. I also maintain several
-                            Raspberry Pi devices that currently host a development server and a home media server.</p>
+                    <div className="row">
+                        <div className="col-12 col-md-8 col-lg-7">
+                            <p>My name is Adam Foot, and I am a recent Computing BSc graduate. I attended the University
+                                of
+                                Plymouth (UOP) between the years of 2016-2020. During my time at UOP I decided to take
+                                part in a year in industry where I was lucky enough to land a position with British
+                                Telecom based in
+                                Cardiff, Wales. After I graduated, I was offered a place at BT on their 2-year graduate
+                                scheme of
+                                which I accepted. I am currently working on adding security to BT & EE's Mobile Network
+                                platforms.</p>
+                        </div>
+                        <div className="col-12 col-md-4 col-lg-5 text-center mb-3">
+                            <img src={portrait} className="img-fluid"/>
+                        </div>
                     </div>
-                </div>
 
-                <div className="row mb-5">
-                    <div className="col-12 col-md-8 col-lg-7">
-                        <p>Although I have a current full-time position as a Graduate Software Engineer, I would love to hear
-                            about any opportunities that I may be suitable for! So, if you have any work that fits my criteria,
-                            I would love to hear from you!</p>
-                        <a href="mailto:adamfootwebdev&#64;gmail.com" className="text-decoration-none">
-                            <button className="btn btn-info btn-block">Send
-                                me an email!
-                            </button>
-                        </a>
+                    <div className="row">
+                        <div className="col-12 col-md-8 col-lg-7">
+                            <p>Whilst studying I learned a wide range of programming languages and technologies that
+                                include but are
+                                not limited to the following:</p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Java</li>
+                                <li>C#</li>
+                                <li>C++</li>
+                                <li>NoSQL Databases (MongoDB)</li>
+                                <li>SQL</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
-                <div className="row">
-                    <div className="col-12 text-center">
-                        <p className="text-muted font-small">&#169; Copyright 2021 - Adam Foot</p>
+                    <div className="row">
+                        <div className="col-12 col-md-8 col-lg-7">
+                            <p>I really enjoy web development and utilising frameworks such as React and Angular. One
+                                day I wish to
+                                pursue a career in it and become a full stack web developer. Alongside this, I enjoy
+                                learning new
+                                languages. I am currently looking to widen my knowledge on Python and C# for games
+                                development
+                                within Unity.</p>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col-12 col-md-8 col-lg-7">
+                            <p>Aside from the software side of tech, I really enjoy building computers. I have had some
+                                experience
+                                with building my own PC and helped build friends and family members as well. I also
+                                maintain several
+                                Raspberry Pi devices that currently host a development server and a home media
+                                server.</p>
+                        </div>
+                    </div>
+
+                    <div className="row mb-5">
+                        <div className="col-12 col-md-8 col-lg-7">
+                            <p>Although I have a current full-time position as a Graduate Software Engineer, I would
+                                love to hear
+                                about any opportunities that I may be suitable for! So, if you have any work that fits
+                                my criteria,
+                                I would love to hear from you!</p>
+                            <a href="mailto:adamfootwebdev&#64;gmail.com" className="text-decoration-none">
+                                <button className="btn btn-info btn-block">Send
+                                    me an email!
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col-12 text-center">
+                            <p className="text-muted font-small">&#169; Copyright 2021 - Adam Foot</p>
+                        </div>
                     </div>
                 </div>
             </div>
