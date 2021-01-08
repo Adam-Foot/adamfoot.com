@@ -17,7 +17,7 @@ class Landing extends Component {
                     <div className="col-12 text-center flex-wrap">
                         <h1 className="text-uppercase welcome-fade-in">Welcome to my website</h1>
                         <h2 className="welcome-name-in">My name is Adam Foot</h2>
-                        <h3 className="welcome-text-in">A front-end developer from Stroud</h3>
+                        <h3 className="welcome-text-in">A Front-End Developer from Stroud</h3>
                         <Link to={ROUTES.HOME} className="text-decoration-none text-black align-self-end"><h4 className="welcome-text-explore">Explore >>></h4></Link>
                     </div>
                 </div>
