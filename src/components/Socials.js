@@ -2,6 +2,10 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import * as ROUTES from "../constants/routes";
 
+import linkedin from '../assets/linkedin.png';
+import twitter from '../assets/twitter.png';
+import github from '../assets/github.png';
+
 const Socials = () => (
     <div>
 
@@ -39,13 +43,19 @@ const Socials = () => (
                 </div>
             </div>
 
-            <div className="row">
-                <div className="col-12 col-md-8 col-lg-7">
-
+            <div className="row justify-content-center mb-5">
+                <div className="col-12 col-sm-6 col-lg-4 text-center mb-3">
+                    <a href="https://twitter.com/AdamFoot03"><img src={twitter} className="img-fluid" /></a>
+                </div>
+                <div className="col-12 col-sm-6 col-lg-4 text-center mb-3">
+                    <a href="https://github.com/Adam-Foot"><img src={github} className="img-fluid" /></a>
+                </div>
+                <div className="col-12 col-sm-6 col-lg-4 text-center mb-3">
+                    <a href="https://www.linkedin.com/in/adamfoot/"><img src={linkedin} className="img-fluid" /></a>
                 </div>
             </div>
 
-            <div className="row fixed-bottom">
+            <div className="row">
                 <div className="col-12 text-center">
                     <p className="text-muted font-small">&#169; Copyright 2021 - Adam Foot</p>
                 </div>

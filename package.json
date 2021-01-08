@@ -39,5 +39,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "firebase": "^8.2.2",
+    "firebase-tools": "^9.1.2"
   }
 }
