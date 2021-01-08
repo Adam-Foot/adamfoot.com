@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Home from './components/Home';
+import Landing from "./components/Landing";
 import CV from './components/CV';
 import Socials from "./components/Socials";
 
@@ -10,11 +11,11 @@ import NavBar from "./components/Navbar";
 
 const App = () => (
     <Router>
-        <NavBar />
 
-        <Route exact path={ROUTES.HOME} component={Home} />
-        <Route exact path={ROUTES.CV} component={CV} />
-        <Route exact path={ROUTES.SOCIAL} component={Socials} />
+        <Route exact path={ROUTES.LANDING} component={Landing} />
+        <Route path={ROUTES.HOME} component={Home} />
+        <Route path={ROUTES.CV} component={CV} />
+        <Route path={ROUTES.SOCIAL} component={Socials} />
     </Router>
 )
 
