@@ -30,6 +30,11 @@ class Home extends Component {
         return (
             <div>
 
+                <div className="alert alert-warning alert-dismissible fade show mb-0" role="alert">
+                    <strong>Thanks for checking out my website!</strong> Please be aware it is still under development.
+                    <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"/>
+                </div>
+
                 <nav className="navbar navbar-expand-md navbar-light bg-light mb-5 sticky-top">
                     <Link to={ROUTES.HOME} className="navbar-brand">Adam Foot</Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse"

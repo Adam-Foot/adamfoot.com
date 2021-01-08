@@ -41,7 +41,7 @@ const Socials = () => (
 
             <div className="row">
                 <div className="col-12 col-md-8 col-lg-7">
-                    <p className="text-muted">Below you can find all my useful Social Media links. Connect with me!</p>
+
                 </div>
             </div>
 
