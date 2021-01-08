@@ -4,13 +4,63 @@
 .font-small {
     font-size: 0.8rem;
 }
-
-.fade-in-welcome {
-    animation: fade 1.0s ease-in;
+.text-black {
+    color: black;
 }
 
-@keyframes fade {
+.welcome-fade-in {
+    animation: fade-in-welcome 1s ease-in;
+}
+.welcome-name-in {
+    animation: fade-in-welcome-name 2s ease-in;
+}
+.welcome-text-in {
+    animation: fade-in-welcome-text 3s ease-in;
+}
+.welcome-text-explore {
+    animation: fade-in-explore-text 4s ease-in;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: url("./bg.gif");
+}
+@keyframes fade-in-welcome {
     0% {
         opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+@keyframes fade-in-welcome-name {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+@keyframes fade-in-welcome-text {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+@keyframes fade-in-explore-text {
+    0% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
     }
 }
