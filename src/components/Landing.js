@@ -7,23 +7,8 @@ class Landing extends Component {
     constructor(props) {
         super(props);
 
-        this.state = {
-            animation: true
-        }
     }
 
-    componentDidMount() {
-        if (window.sessionStorage.getItem("landingFirstLoad") === null) {
-            this.setState({
-                animation: true
-            })
-            window.sessionStorage.setItem("landingFirstLoad", 1)
-        } else {
-            this.setState({
-                animation: false
-            })
-        }
-    }
 
     render() {
         return (

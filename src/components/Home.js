@@ -30,7 +30,7 @@ class Home extends Component {
         return (
             <div>
 
-                <div className="alert alert-warning alert-dismissible fade show mb-0" role="alert">
+                <div className={this.state.animation ? "alert alert-warning alert-dismissible fade show mb-0" : "alert alert-warning alert-dismissible fade show mb-0 hidden"} role="alert">
                     <strong>Thanks for checking out my website!</strong> Please be aware it is still under development.
                     <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"/>
                 </div>

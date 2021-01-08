@@ -7,6 +7,9 @@
 .text-black {
     color: black;
 }
+.hidden {
+    display: none;
+}
 
 .welcome-fade-in {
     animation: fade-in-welcome 1s ease-in;
