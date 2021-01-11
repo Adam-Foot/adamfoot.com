@@ -9,6 +9,13 @@ class Landing extends Component {
 
     }
 
+    componentDidMount() {
+        document.getElementById('navbar').style.display = "none";
+    }
+
+    componentWillUnmount(){
+        document.getElementById('navbar').style.display = "flex";
+    }
 
     render() {
         return (
