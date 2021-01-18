@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Landing from "./components/Landing";
 import CV from './components/CV';
 import Socials from "./components/Socials";
+import Projects from "./components/Projects";
 
 import * as ROUTES from './constants/routes';
 import NavBar from "./components/Navbar";
@@ -18,6 +19,7 @@ const App = () => {
                 <Route path={ROUTES.HOME} component={Home} />
                 <Route path={ROUTES.CV} component={CV} />
                 <Route path={ROUTES.SOCIAL} component={Socials} />
+                <Route path={ROUTES.PROJECTS} component={Projects} />
             </Router>
         )
 }
