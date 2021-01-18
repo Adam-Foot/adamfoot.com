@@ -47,7 +47,7 @@ class Home extends Component {
                                 platforms.</p>
                         </div>
                         <div className="col-12 col-md-4 col-lg-5 text-center mb-3">
-                            <img src={portrait} className="img-fluid" alt="Adam Foot Portrait Image" />
+                            <img src={portrait} className="img-fluid" alt="Adam Foot Portrait" />
                         </div>
                     </div>
 
