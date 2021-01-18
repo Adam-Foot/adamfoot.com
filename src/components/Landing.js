@@ -4,10 +4,6 @@ import * as ROUTES from "../constants/routes";
 
 
 class Landing extends Component {
-    constructor(props) {
-        super(props);
-
-    }
 
     componentDidMount() {
         document.getElementById('navbar').style.display = "none";
