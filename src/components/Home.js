@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
 
-import portrait from '../assets/portrait.png';
-
 class Home extends Component {
     constructor(props) {
         super(props);
@@ -45,9 +43,6 @@ class Home extends Component {
                                 scheme of
                                 which I accepted. I am currently working on adding security to BT & EE's Mobile Network
                                 platforms.</p>
-                        </div>
-                        <div className="col-12 col-md-4 col-lg-5 text-center mb-3">
-                            <img src={portrait} className="img-fluid" alt="Adam Foot Portrait" />
                         </div>
                     </div>
 
