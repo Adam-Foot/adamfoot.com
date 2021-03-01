@@ -48,24 +48,6 @@ class Home extends Component {
 
                     <div className="row">
                         <div className="col-12 col-md-8 col-lg-7">
-                            <p>Whilst studying I learned a wide range of programming languages and technologies that
-                                include but are
-                                not limited to the following:</p>
-                            <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                                <li>Java</li>
-                                <li>C#</li>
-                                <li>C++</li>
-                                <li>NoSQL Databases (MongoDB)</li>
-                                <li>SQL</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div className="row">
-                        <div className="col-12 col-md-8 col-lg-7">
                             <p>I really enjoy web development and utilising frameworks such as React and Angular. One
                                 day I wish to
                                 pursue a career in it and become a full stack web developer. Alongside this, I enjoy
