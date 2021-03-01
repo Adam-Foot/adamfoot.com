@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="205" height="205" viewBox="0 0 205 205">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: gray;
+      }
+
+      .cls-2 {
+        font-size: 50px;
+        text-anchor: middle;
+        font-family: "Agency FB";
+      }
+    </style>
+  </defs>
+  <rect id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-1" x="1" y="1" width="203" height="203" rx="30" ry="30"/>
+  <text id="Colour_Mail" data-name="Colour Mail" class="cls-2" x="102" y="92"><tspan x="102">Colour</tspan><tspan x="102" dy="60">Mail</tspan></text>
+</svg>
