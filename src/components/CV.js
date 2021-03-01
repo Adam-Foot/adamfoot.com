@@ -102,6 +102,39 @@ const CV = () => (
                         <li>2018 | Web Development Foundations: Full Stack vs Front-End</li>
                         <li>2018 | Web Programming Fundamentals</li>
                     </ul>
+
+                    <p className="font-weight-bolder">freeCodeCamp</p>
+                    <ul>
+                        <li>Ongoing | Responsive Web Design</li>
+                        <ul>
+                            <li>Basic HTML and HTML5 - 100%</li>
+                            <li>Basic CSS - 100%</li>
+                            <li>Applied Visual Design - 38%</li>
+                            <li>Applied Accessibility</li>
+                            <li>Responsive Web Design Principles</li>
+                            <li>CSS Flexbox</li>
+                            <li>CSS Grid</li>
+                            <li>Responsive Web Design Projects</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+
+            <div className="row mb-5">
+                <div className="col-12 col-md-8 col-lg-7">
+                    <p className="font-weight-bold">Acquired Skills & Technologies</p>
+                    <ul>
+                        <li>React</li>
+                        <li>NodeJS</li>
+                        <li>JavaScript ES6+</li>
+                        <li>Firebase (Authentication, Hosting & Cloud Firestore)</li>
+                        <li>Android Studio (Java)</li>
+                        <li>Websockets</li>
+                        <li>MongoDB (mongoose)</li>
+                        <li>Neo4j</li>
+                        <li>Oracle APEX</li>
+                        <li>Bootstrap 4</li>
+                    </ul>
                 </div>
             </div>
 
