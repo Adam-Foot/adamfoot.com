@@ -76,7 +76,7 @@ class Home extends Component {
                                 about any opportunities that I may be suitable for! So, if you have any work that fits
                                 my criteria,
                                 I would love to hear from you!</p>
-                            <a href="mailto:adamfootwebdev&#64;gmail.com" className="text-decoration-none">
+                            <a href="mailto:adamfoot16&#64;gmail.com" className="text-decoration-none">
                                 <button className="btn btn-info btn-block">Send
                                     me an email!
                                 </button>
