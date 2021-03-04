@@ -105,7 +105,7 @@ const CV = () => (
 
                     <p className="font-weight-bolder">freeCodeCamp</p>
                     <ul>
-                        <li>Ongoing | Responsive Web Design - <strong>50% Complete</strong></li>
+                        <li>Ongoing | Responsive Web Design (300 hours) - <strong>50% Complete</strong></li>
                         <ul>
                             <li>Basic HTML and HTML5 - 100%</li>
                             <li>Basic CSS - 100%</li>
