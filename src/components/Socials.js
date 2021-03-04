@@ -23,16 +23,16 @@ const Socials = () => (
 
             <div className="row justify-content-center mb-5">
                 <div className="col-12 col-sm-6 col-lg-3 text-center mb-3">
-                    <a href="https://twitter.com/AdamFoot03" target="_blank" rel="noreferrer"><img src={twitter} className="img-fluid" alt="Twitter Logo" /></a>
+                    <a href="https://twitter.com/AdamFoot03" target="_blank" rel="noreferrer"><img src={twitter} className="img-fluid social-links" alt="Twitter Logo" /></a>
                 </div>
                 <div className="col-12 col-sm-6 col-lg-3 text-center mb-3">
-                    <a href="https://github.com/Adam-Foot" target="_blank" rel="noreferrer"><img src={github} className="img-fluid" alt="Github Logo" /></a>
+                    <a href="https://github.com/Adam-Foot" target="_blank" rel="noreferrer"><img src={github} className="img-fluid social-links" alt="Github Logo" /></a>
                 </div>
                 <div className="col-12 col-sm-6 col-lg-3 text-center mb-3">
-                    <a href="https://www.linkedin.com/in/adamfoot/" target="_blank" rel="noreferrer"><img src={linkedin} className="img-fluid" alt="LinkedIn Logo" /></a>
+                    <a href="https://www.linkedin.com/in/adamfoot/" target="_blank" rel="noreferrer"><img src={linkedin} className="img-fluid social-links" alt="LinkedIn Logo" /></a>
                 </div>
                 <div className="col-12 col-sm-6 col-lg-3 text-center mb-3">
-                    <a href="https://www.freecodecamp.org/adam-foot" target="_blank" rel="noreferrer"><img src={fcc} className="img-fluid" alt="freeCodeCamp Logo" /></a>
+                    <a href="https://www.freecodecamp.org/adam-foot" target="_blank" rel="noreferrer"><img src={fcc} className="img-fluid social-links" alt="freeCodeCamp Logo" /></a>
                 </div>
             </div>
 
