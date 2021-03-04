@@ -134,6 +134,7 @@ const CV = () => (
                         <li>Neo4j</li>
                         <li>Oracle APEX</li>
                         <li>Bootstrap 4</li>
+                        <li>SQL</li>
                     </ul>
                 </div>
             </div>
