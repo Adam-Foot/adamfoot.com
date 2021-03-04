@@ -114,10 +114,10 @@ const CV = () => (
                             <li>Responsive Web Design Principles - 100%</li>
                             <li>CSS Flexbox - 100%</li>
                             <li>CSS Grid - 100%</li>
-                            <li>Responsive Web Design Projects - Ongoing</li>
+                            <li>Responsive Web Design Projects - 20%</li>
                             <ul>
-                                <li>Build a Tribute Page - Ongoing</li>
-                                <li>Build a Survey Form - Not started</li>
+                                <li>Build a Tribute Page - 100%</li>
+                                <li>Build a Survey Form - Ongoing</li>
                                 <li>Build a Product Landing Page - Not started</li>
                                 <li>Build a Technical Documentation Page - Not started</li>
                                 <li>Build a Personal Portfolio Webpage - Not started</li>
