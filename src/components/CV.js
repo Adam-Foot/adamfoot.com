@@ -105,16 +105,16 @@ const CV = () => (
 
                     <p className="font-weight-bolder">freeCodeCamp</p>
                     <ul>
-                        <li>Ongoing | Responsive Web Design</li>
+                        <li>Ongoing | Responsive Web Design - <strong>50% Complete</strong></li>
                         <ul>
                             <li>Basic HTML and HTML5 - 100%</li>
                             <li>Basic CSS - 100%</li>
-                            <li>Applied Visual Design - 38%</li>
-                            <li>Applied Accessibility</li>
-                            <li>Responsive Web Design Principles</li>
-                            <li>CSS Flexbox</li>
-                            <li>CSS Grid</li>
-                            <li>Responsive Web Design Projects</li>
+                            <li>Applied Visual Design - 100%</li>
+                            <li>Applied Accessibility - 100%</li>
+                            <li>Responsive Web Design Principles - Not started</li>
+                            <li>CSS Flexbox - Not started</li>
+                            <li>CSS Grid - Not started</li>
+                            <li>Responsive Web Design Projects - Not started</li>
                         </ul>
                     </ul>
                 </div>
