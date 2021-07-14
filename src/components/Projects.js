@@ -1,10 +1,10 @@
 import React from "react";
 
-import colourmail from '../assets/projects/cm.svg';
-import slw from '../assets/projects/slw.svg';
-import aftts from '../assets/projects/aftts.svg';
-import gr from '../assets/projects/gamereview.svg';
-import wzstats from '../assets/projects/wzstats.svg';
+import colourmail from '../assets/projects/CM.PNG';
+import slw from '../assets/projects/SLW.PNG';
+import aftts from '../assets/projects/AFTTS.PNG';
+import gr from '../assets/projects/GR.PNG';
+import wzstats from '../assets/projects/WS.PNG';
 
 const Projects = () => {
     return(
@@ -17,14 +17,14 @@ const Projects = () => {
                 </div>
 
                 <div className="row mb-5">
-                    <div className="col-12 col-md-8 col-lg-7">
+                    <div className="col-12">
                         <p className="text-muted">Below you will be able to find all my current and completed
                         web projects! Clicking the projects image will re-direct you to it's hosted website.</p>
                     </div>
                 </div>
 
                 <div className="row justify-content-center mb-5">
-                    <div className="col-8 col-md-6 col-lg-4 text-center mb-4">
+                    <div className="col-12 col-md-10 text-center mb-4">
                         <div className="card h-100 border-success p-3">
                             <a href="https://shannonleahwatson.co.uk/" target="_blank" rel="noreferrer"><img src={slw} className="card-img-top w-75 ml-auto mr-auto social-links" alt="Shannon Leah Watson" /></a>
                                 <div className="card-body">
@@ -34,7 +34,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div className="col-8 col-md-6 col-lg-4 text-center mb-4">
+                    <div className="col-12 col-md-10 text-center mb-4">
                         <div className="card h-100 border-success p-3">
                             <a href="https://chrome.google.com/webstore/detail/colourmail/aaghgjfphjnnamaoadafmijgmgnnpglo" target="_blank" rel="noreferrer"><img src={colourmail} className="card-img-top w-75 ml-auto mr-auto social-links" alt="ColourMail Extension" /></a>
                             <div className="card-body">
@@ -44,7 +44,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div className="col-8 col-md-6 col-lg-4 text-center mb-4">
+                    <div className="col-12 col-md-10 text-center mb-4">
                         <div className="card h-100 border-success p-3">
                             <a href="https://aftts-91e86.web.app/" target="_blank" rel="noreferrer"><img src={aftts} className="card-img-top w-75 ml-auto mr-auto social-links" alt="Adam Foot's TTS" /></a>
                             <div className="card-body">
@@ -54,7 +54,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div className="col-8 col-md-6 col-lg-4 text-center mb-4">
+                    <div className="col-12 col-md-10 text-center mb-4">
                         <div className="card h-100 border-success p-3">
                             <a href="https://gamesreview-6e2f4.web.app/" target="_blank" rel="noreferrer"><img src={gr} className="card-img-top w-75 ml-auto mr-auto social-links" alt="Games Review" /></a>
                             <div className="card-body">
@@ -64,7 +64,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div className="col-8 col-md-6 col-lg-4 text-center mb-4">
+                    <div className="col-12 col-md-10 text-center mb-4">
                         <div className="card h-100 border-success p-3">
                             <a href="https://atn3-s-warzone-s.web.app/" target="_blank" rel="noreferrer"><img src={wzstats} className="card-img-top w-75 ml-auto mr-auto social-links" alt="ATN3's Warzone Stats" /></a>
                             <div className="card-body">
