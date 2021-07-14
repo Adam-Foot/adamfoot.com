@@ -10,14 +10,14 @@ const CV = () => (
             </div>
 
             <div className="row mb-5">
-                <div className="col-12 col-md-8 col-lg-7">
+                <div className="col-12 col-md-10 col-lg-8">
                     <p className="text-muted">Below you will be able to find all my relevant educational and industry
                         experiences.</p>
                 </div>
             </div>
 
             <div className="row">
-                <div className="col-12 col-md-8 col-lg-7">
+                <div className="col-12 col-md-10 col-lg-8">
                     <p className="font-weight-bold">Education</p>
                     <p className="font-weight-bolder mb-0">2020 | University of Plymouth</p>
                     <p className="font-weight-bolder">Computing BSc | Grade - 2:1</p>
@@ -43,7 +43,7 @@ const CV = () => (
             </div>
 
             <div className="row mb-5">
-                <div className="col-12 col-md-8 col-lg-7">
+                <div className="col-12 col-md-10 col-lg-8">
                     <p className="font-weight-bolder mb-0">2016 | Strode College</p>
                     <p className="font-weight-bolder">BTEC Level 3 National Extended Diploma in IT | Grade - DMM</p>
                     <ul>
@@ -53,20 +53,24 @@ const CV = () => (
             </div>
 
             <div className="row">
-                <div className="col-12 col-md-8 col-lg-7">
-                    <p className="font-weight-bold">Work Experience</p>
+                <div className="col-12 col-md-10 col-lg-8">
+                    <p className="font-weight-bold">Professional</p>
                     <p className="font-weight-bolder mb-0">2020 | British Telecom - Bristol, UK</p>
                     <p className="font-weight-bolder">Current Employment</p>
                     <ul>
                         <li>Set up vulnerability scanning on popular platforms used within the core IMS network</li>
                         <li>Worked on automating some PING tests on a 5G network offsite</li>
                         <li>Setup and maintained the remote handsets used for testing RAN frequencies</li>
+                        <li>Developed a system from scratch that made use of Python, React, Node and SQL. The system ran
+                            automated tests and recorded the results in a database. The results were then rendered to a
+                            HTML dashboard via the API created in Node.
+                        </li>
                     </ul>
                 </div>
             </div>
 
             <div className="row">
-                <div className="col-12 col-md-8 col-lg-7">
+                <div className="col-12 col-md-10 col-lg-8">
                     <p className="font-weight-bolder">2020 | Wilxite Ltd. - Stroud, UK</p>
                     <ul>
                         <li>Helped maintain a Content Management System for a major client</li>
@@ -76,7 +80,7 @@ const CV = () => (
             </div>
 
             <div className="row mb-5">
-                <div className="col-12 col-md-8 col-lg-7">
+                <div className="col-12 col-md-10 col-lg-8">
                     <p className="font-weight-bolder">2018 | British Telecom - Cardiff, UK</p>
                     <ul>
                         <li>Helped develop a Bootstrap library using BT branding</li>
@@ -91,7 +95,7 @@ const CV = () => (
             </div>
 
             <div className="row mb-5">
-                <div className="col-12 col-md-8 col-lg-7">
+                <div className="col-12 col-md-10 col-lg-8">
                     <p className="font-weight-bold">Other Certification</p>
                     <p className="font-weight-bolder">LinkedIn Learning</p>
                     <ul>
@@ -128,7 +132,7 @@ const CV = () => (
             </div>
 
             <div className="row mb-5">
-                <div className="col-12 col-md-8 col-lg-7">
+                <div className="col-12 col-md-10 col-lg-8">
                     <p className="font-weight-bold">Acquired Skills & Technologies</p>
                     <ul>
                         <li>React</li>
